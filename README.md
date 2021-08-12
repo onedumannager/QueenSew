@@ -87,7 +87,7 @@ By establishing the SewQueen, you are deemed to have accepted these responsibili
 
 ##🇱🇰 Developer 🍁
 
-[![RAVINDU MANOJ](https://github.com/Sew01RaviduManoj01KingAndQueen/imagehosting/blob/e18b9131ed1b5ec87d58359781c2a9c1044df810/temp_user_profile1621662133773.jpeg" width="100" height="100")](https://github.com/Sew01RaviduManoj01KingAndQueen/Sew01RaviduManoj01KingAndQueen#Readme.md)
+[![RAVINDU MANOJ](https://bit.ly/3AyW139" width="100" height="100")](https://github.com/Sew01RaviduManoj01KingAndQueen/Sew01RaviduManoj01KingAndQueen#Readme.md)
 
 ## Thanks To
 - [@adiwajshing](https://github.com/adiwajshing) for coded [Baileys](https://github.com/adiwajshing/Baileys) 
