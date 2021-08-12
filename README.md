@@ -9,7 +9,7 @@
 
 For Deploy 👇👇👇 බොට්ව සෑදීම සදහා පහත රූපය මත ටච් කරන්න
 
-[![Deploy](resources/gif/IMG_20210724_012025.png)](https://heroku.com/deploy?template=https://github.com/SewRavindu01ManojKing/QueenSew)
+[![Deploy](resources/gif/IMG_20210724_012025.png)](https://bit.ly/2XrSqG1)
 
 
 
