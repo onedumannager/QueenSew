@@ -5,11 +5,11 @@
 
 🇱🇰 FORE QR SCAN 👇👇👇👇 QR කේතය ලබාගැනීමට පහත රූපය මත ටච් කරන්න
 
-[![Run on Repl.it](media/gif/qr-scan.gif)](https://replit.com/@RavinduManoj/Queen-Sew-QR-Code)
+[![Run on Repl.it](resources/gif/qr-scan.gif)](https://replit.com/@RavinduManoj/Queen-Sew-QR-Code)
 
 For Deploy 👇👇👇 බොට්ව සෑදීම සදහා පහත රූපය මත ටච් කරන්න
 
-[![Deploy](media/gif/IMG_20210724_012025.png)](https://heroku.com/deploy?template=https://github.com/SewRavindu01ManojKing/QueenSew)
+[![Deploy](resources/gif/IMG_20210724_012025.png)](https://heroku.com/deploy?template=https://github.com/SewRavindu01ManojKing/QueenSew)
 
 
 
