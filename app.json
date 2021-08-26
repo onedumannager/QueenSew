@@ -75,51 +75,7 @@
             "required": false,
             "value": "https://bit.ly/3AyW139"
         },
-        "Z_GROUP_NAME_A": {
-            "description": "ඔබ සතුව ව්ට්සැප් ගෲප් ඇත්නම් පලමු ගෲපයේ නම යොදන්න. Enter Your 1st Group Name",
-            "required": false
-         },
-         "Z_GROUP_NAME_B": {
-            "description": "ඔබ සතුව ව්ට්සැප් ගෲප් ඇත්නම් දෙවන ගෲපයේ නම යොදන්න. Enter Your 2nd Group Name",
-            "required": false
-         },
-         "Z_GROUP_NAME_C": {
-            "description": "ඔබ සතුව ව්ට්සැප් ගෲප් ඇත්නම් තෙවන ගෲපයේ නම යොදන්න. Enter Your 3rd Group Name",
-            "required": false
-         },
-         "Z_GROUP_LINK_A": {
-            "description": "පලමු ගෲපයේ ලින්ක් එක යොදන්න. Enter Your 1st Group link",
-            "required": false
-         },
-         "Z_GROUP_LINK_B": {
-            "description": "දෙවන ගෲපයේ ලින්ක් එක යොදන්න. Enter Your 2nd Group link",
-            "required": false
-         },
-         "Z_GROUP_LINK_C": {
-            "description": "තෙවන ගෲපයේ ලින්ක් එක යොදන්න. Enter Your 3rd Group link",
-            "required": false
-         },
-         "X_TEAM_API_A": {
-            "description": "https://api.xteam.xyz/register මගින් ලබා ගන්නා Api Key ඇතුලත් කරන්න.. නොමැති නම් අවශ්‍ය නැත... ඇතුලත් කිරීමෙන් text to image කෝඩ් 200කට ආසන්නව ඇති සියල්ලම ලිමිට් එකකින් තොරව භාවිතා කල හැක",
-            "required": false
-         },
-         "X_TEAM_API_B": {
-            "description": "https://api.xteam.xyz/register මගින් ලබා ගන්නා Api Key ඇතුලත් කරන්න.. නොමැති නම් අවශ්‍ය නැත... ඇතුලත් කිරීමෙන් text to image කෝඩ් 200කට ආසන්නව ඇති සියල්ලම ලිමිට් එකකින් තොරව භාවිතා කල හැක",
-            "required": false
-         },
-         "X_TEAM_API_C": {
-            "description": "https://api.xteam.xyz/register මගින් ලබා ගන්නා Api Key ඇතුලත් කරන්න.. නොමැති නම් අවශ්‍ය නැත... ඇතුලත් කිරීමෙන් text to image කෝඩ් 200කට ආසන්නව ඇති සියල්ලම ලිමිට් එකකින් තොරව භාවිතා කල හැක",
-            "required": false
-         },
-         "X_TEAM_API_D": {
-            "description": "https://api.xteam.xyz/register මගින් ලබා ගන්නා Api Key ඇතුලත් කරන්න.. නොමැති නම් අවශ්‍ය නැත... ඇතුලත් කිරීමෙන් text to image කෝඩ් 200කට ආසන්නව ඇති සියල්ලම ලිමිට් එකකින් තොරව භාවිතා කල හැක",
-            "required": false
-         },
-         "THUMBNAIL_FOR_VIDEO": {
-            "description": "බොට් අප්ලෝඩ් කරන වීඩියෝ වල තම්බ්නෙයිල් එක වෙනස් කිරීම සදහා අදාල රූපයෙහි base64 මගින් encoded කේතය ඇතුලත් කරන්න. කිලෝබයිට් 25ට අඩු පින්තූරක් භාවිත කරන්න.. නැති නම් ඩිප්ලෝයි කිරීමට නොහැක",
-            "required": false
-         },
-          "ZZ_PASSWORD": {
+         "ZZ_PASSWORD": {
             "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර වීඩියෝව නරඹා එය ලබා ගන්න.password required.. watch the video",
             "required": true
          },
