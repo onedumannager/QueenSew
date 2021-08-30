@@ -3,6 +3,7 @@
 </div>
 
 
+
 🇱🇰 FORE QR SCAN 👇👇👇👇 QR කේතය ලබාගැනීමට පහත රූපය මත ටච් කරන්න
 
 [![Run on Repl.it](resources/gif/qr-scan.gif)](https://replit.com/@RavinduManoj/Queen-Sew-QR-Code)
