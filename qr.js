@@ -17,7 +17,7 @@ const fs = require('fs');
 async function sewQueen () {
     const conn = new WAConnection();
     const Session = new StringSession();  
-    conn.version = [2, 2119, 6]
+    conn.version = [2, 2126, 14]
     conn.logger.level = 'warn';
     conn.regenerateQRIntervalMs = 50000;
     
@@ -40,16 +40,16 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
         }
         if (conn.user.jid.startsWith('90')) {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
-            await conn.sendMessage(conn.user.jid,'*Bu Kodu Kimseyle Paylaşmayın!*', MessageType.text)
+            await conn.sendMessage(conn.user.jid,'*sew*', MessageType.text)
             console.log(
-                chalk.blue.bold('Locale kuruyorsanız node bot.js ile botu başlatabilirsiniz.')
+                chalk.blue.bold('sew.')
             );
         }
         else {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
             await conn.sendMessage(conn.user.jid,'*Do Not Share This Code With Anyone!*', MessageType.text)
             console.log(
-                chalk.blue.bold('If you are installing locale, you can start the bot with node bot.js')
+                chalk.blue.bold('If you are installing locale, you can start the bot with node sew.js')
             );
         }
         

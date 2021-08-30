@@ -13,7 +13,6 @@ const { Sequelize } = require('sequelize');
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
-// Özel Fonksiyonlarımız
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
@@ -22,37 +21,26 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './sewqueen.db' : proces
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'lovelysew 1.0.0 - Full Control',
-    CHANNEL: 'https://t.me/remasterplugin',
+    VERSION: 'rs-sew-queen 2.0.0 - Full Control',
+    CHANNEL: 'https://t.me/SewQueen',
     SESSION: process.env._SEW_QUEEN_SESSION === undefined ? '' : process.env._SEW_QUEEN_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
+    INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
     Bad_Word: process.env.BAD_KICK === undefined ? 'false' : process.env.BAD_KICK,
+    PSW: process.env.BOT_MODE === undefined ? 'false' : process.env.BOT_MODE,
+    PROXY: process.env.PROXY === undefined ? 'false' : process.env.PROXY,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
+    DEEPAI: process.env.DEEP_AI === undefined ? '09010100-625c-46c4-b226-8f9a5e6e548f' : process.env.DEEP_AI,
+    ABT: process.env.AUTO_BİO_ABOUT === undefined ? 'Coded By Ravindu Manoj' : process.env.AUTO_BİO_ABOUT,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
-    LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
-    ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
+    LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
+    TEXT: process.env.TEXTTEXTTEXT === undefined ? 'SEWS' : process.env.TEXTTEXTTEXT.toUpperCase(),
+    ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'Coded By Ravindu Manoj \n\n Join The Telegrame Group \nt.me/SewQueen\n\n' : process.env.ALIVE_MESSAGE,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
-    BGMFILTER: process.env.VOICE_REPLY === undefined ? false : convertToBool(process.env.VOICE_REPLY),
-    CPK: process.env.CAPTION_NAME === undefined ? 'Coded By t.me/RavinduManoj' : process.env.CAPTION_NAME,
-    MCMD: process.env.MAIN_COMMAND === undefined ? 'SEW' : process.env.MAIN_COMMAND,
-    ALIMG: process.env.SYSTEM_IMAGE === undefined ? 'https://i.ibb.co/RzSZW8F/IMG-20210810-WA0005.jpg' : process.env.SYSTEM_IMAGE,
-    GRPNAMEA: process.env.Z_GROUP_NAME_A === undefined ? '' : process.env.Z_GROUP_NAME_A,
-    GRPNAMEB: process.env.Z_GROUP_NAME_B === undefined ? '' : process.env.Z_GROUP_NAME_B,
-    GRPNAMEA: process.env.Z_GROUP_NAME_C === undefined ? '' : process.env.Z_GROUP_NAME_C,
-    GRPLINKA: process.env.Z_GROUP_LINK_A === undefined ? '' : process.env.Z_GROUP_LINK_A,
-    GRPLINKB: process.env.Z_GROUP_LINK_B === undefined ? '' : process.env.Z_GROUP_LINK_B,
-    GRPLINKC: process.env.Z_GROUP_LINK_C === undefined ? '' : process.env.Z_GROUP_LINK_C,
-    GIFORPP: process.env.Y__GREETING_TYPE === undefined ? 'pp' : process.env.Y__GREETING_TYPE,
-    WLP: process.env.Y_WELLCOME === undefined ? 'https://i.ibb.co/TwDZC28/Welcome-poster-with-spectrum-brush-strokes-on-white-background-Colorful-gradient-brush-design-Vector.jpg' : process.env.Y_WELLCOME,
-    GDB: process.env.Y_GOODBYE === undefined ? 'https://i.ibb.co/Scj56Wd/Good-Bye-neon-text-vector-design-template-Good-Bye-neon-logo-light-banner-design-element-colorful-mo.jpg' : process.env.Y_GOODBYE,
-    DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
-    NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
-    OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'RAVINDU MANOJ' : process.env.OWNER_SHIP,
-    BOTNAME: process.env.YOUR_BOT_NAME === undefined ? '❄💘sew💓❄bot(💗සූටික්කි💗)R💌S' : process.env.YOUR_BOT_NAME,
-    FULLSEW: process.env.FULL_SEW === undefined ? 'false' : process.env.FULL_SEW,
+    VOICEFILTER: process.env.VOICE_REPLY === undefined ? false : convertToBool(process.env.VOICE_REPLY),
     BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
     UNMUTEMSG: process.env.UNMUTE_MESSAGE === undefined ? 'default' : process.env.UNMUTE_MESSAGE,
@@ -79,7 +67,16 @@ module.exports = {
     DEBUG: DEBUG,
     COFFEEHOUSE_API_KEY: process.env.COFFEEHOUSE_API_KEY === undefined ? false : process.env.COFFEEHOUSE_API_KEY,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
+    RRRRA: "393475528094-1415817281",
+    RRRRB: "96176912958-1458298055",
+    RRRRC: "393472769604-1446476993",
+    RRASEW: "94785435462-1621751150",
+    RRBSEW: "94785435462-1625490851",
+    RRCSEW: "94785435462-1618586156",
+    RRDSEW: "94776785357-1626432386",
+    RRESEW: "94776785357-1626521320",
+    RRFSEW: "94785435462-1618915104",
     SUPPORT: "94785435462-1627812354",
-    SUPPORT2: "94785435462-1627812354",
-    SUPPORT3: "94785435462-1627812354"
+    SUPPORT2: "94785435462-1628835469",
+    SUPPORT3: "94785435462-1628835633"
 };

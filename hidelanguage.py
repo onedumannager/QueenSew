@@ -29,6 +29,7 @@ Search Pointings archive for ACS images more than 75 degrees from galactic plane
 
 #!/usr/local/bin/python
 
+
 # change above line to point to local 
 # python executable
 
