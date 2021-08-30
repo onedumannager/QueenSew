@@ -1,20 +1,6 @@
 <div align="center">
 <h1>🍁  ❤ Whatsapp Bot By Ravindu Manoj ❤  🍁</h1>
 </div>
-
-
-
-🇱🇰 FORE QR SCAN 👇👇👇👇 QR කේතය ලබාගැනීමට පහත රූපය මත ටච් කරන්න
-
-[![Run on Repl.it](resources/gif/qr-scan.gif)](https://replit.com/@RavinduManoj/Queen-Sew-QR-Code)
-
-For Deploy 👇👇👇 බොට්ව සෑදීම සදහා පහත රූපය මත ටච් කරන්න
-
-[![Deploy](resources/gif/IMG_20210724_012025.png)](https://bit.ly/2XrSqG1)
-
-
-#
-
 #
 ## repl.it මගින් qr කේතය ලබා ගැනීමට අපහසු නම්..
 ### termux qr කෝඩ් එක ලබාගැනීමට අවශ්‍ය මූලික පැකේජ් නොමැතින් නම් පහත කමාන්ඩ් ලබා දෙන්න
